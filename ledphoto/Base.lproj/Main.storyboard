@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KiC-pK-wK2">
+                                <rect key="frame" x="335" y="268" width="101" height="64"/>
+                                <state key="normal" title="ON" image="OnBlack.png"/>
+                                <connections>
+                                    <action selector="tapON:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VRh-ce-n06"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcX-wr-dH3">
+                                <rect key="frame" x="392" y="268" width="103" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="I3j-A8-ceD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title=" " image="OffBlack.png"/>
+                                <connections>
+                                    <action selector="tapOFF:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wuV-Kj-V8p"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="KiC-pK-wK2" secondAttribute="trailing" constant="164" id="Fkv-l8-M3G"/>
+                            <constraint firstItem="KiC-pK-wK2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Sla-NH-AyS"/>
+                            <constraint firstItem="kcX-wr-dH3" firstAttribute="baseline" secondItem="KiC-pK-wK2" secondAttribute="baseline" id="kJT-Eh-gky"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kcX-wr-dH3" secondAttribute="trailing" constant="85" id="p90-Pk-MG2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonOFF" destination="kcX-wr-dH3" id="YST-Qs-CYH"/>
+                        <outlet property="buttonON" destination="KiC-pK-wK2" id="2cU-9s-2Om"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="399"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="OffBlack.png" width="69" height="64"/>
+        <image name="OnBlack.png" width="74" height="64"/>
+    </resources>
+</document>

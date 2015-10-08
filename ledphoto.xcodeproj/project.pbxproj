@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F80C2FF1BC57425001A6001 /* switch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F80C2FE1BC57425001A6001 /* switch.mp3 */; settings = {ASSET_TAGS = (); }; };
+		3FA6B3911BC61BB900E97607 /* CustomSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA6B3901BC61BB900E97607 /* CustomSwitch.m */; settings = {ASSET_TAGS = (); }; };
+		3FFBBEC21BC521CF0020B084 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBBEC11BC521CF0020B084 /* main.m */; };
+		3FFBBEC51BC521CF0020B084 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBBEC41BC521CF0020B084 /* AppDelegate.m */; };
+		3FFBBEC81BC521CF0020B084 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBBEC71BC521CF0020B084 /* ViewController.m */; };
+		3FFBBECB1BC521CF0020B084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFBBEC91BC521CF0020B084 /* Main.storyboard */; };
+		3FFBBECD1BC521CF0020B084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFBBECC1BC521CF0020B084 /* Assets.xcassets */; };
+		3FFBBED01BC521CF0020B084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFBBECE1BC521CF0020B084 /* LaunchScreen.storyboard */; };
+		3FFBBEDE1BC522170020B084 /* OffBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFBBEDA1BC522170020B084 /* OffBlack.png */; settings = {ASSET_TAGS = (); }; };
+		3FFBBEDF1BC522170020B084 /* OffWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFBBEDB1BC522170020B084 /* OffWhite.png */; settings = {ASSET_TAGS = (); }; };
+		3FFBBEE01BC522170020B084 /* OnBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFBBEDC1BC522170020B084 /* OnBlack.png */; settings = {ASSET_TAGS = (); }; };
+		3FFBBEE11BC522170020B084 /* OnWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFBBEDD1BC522170020B084 /* OnWhite.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F80C2FE1BC57425001A6001 /* switch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = switch.mp3; sourceTree = "<group>"; };
+		3FA6B38F1BC61BB900E97607 /* CustomSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSwitch.h; sourceTree = "<group>"; };
+		3FA6B3901BC61BB900E97607 /* CustomSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSwitch.m; sourceTree = "<group>"; };
+		3FFBBEBD1BC521CF0020B084 /* ledphoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ledphoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFBBEC11BC521CF0020B084 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FFBBEC31BC521CF0020B084 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FFBBEC41BC521CF0020B084 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FFBBEC61BC521CF0020B084 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FFBBEC71BC521CF0020B084 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FFBBECA1BC521CF0020B084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FFBBECC1BC521CF0020B084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FFBBECF1BC521CF0020B084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FFBBED11BC521CF0020B084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFBBEDA1BC522170020B084 /* OffBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OffBlack.png; path = Images/onoff/OffBlack.png; sourceTree = "<group>"; };
+		3FFBBEDB1BC522170020B084 /* OffWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OffWhite.png; path = Images/onoff/OffWhite.png; sourceTree = "<group>"; };
+		3FFBBEDC1BC522170020B084 /* OnBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OnBlack.png; path = Images/onoff/OnBlack.png; sourceTree = "<group>"; };
+		3FFBBEDD1BC522170020B084 /* OnWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OnWhite.png; path = Images/onoff/OnWhite.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FFBBEBA1BC521CF0020B084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA6B38E1BC61B2800E97607 /* CustomSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				3FA6B38F1BC61BB900E97607 /* CustomSwitch.h */,
+				3FA6B3901BC61BB900E97607 /* CustomSwitch.m */,
+			);
+			name = CustomSwitch;
+			sourceTree = "<group>";
+		};
+		3FFBBEB41BC521CF0020B084 = {
+			isa = PBXGroup;
+			children = (
+				3FFBBEBF1BC521CF0020B084 /* ledphoto */,
+				3FFBBEBE1BC521CF0020B084 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FFBBEBE1BC521CF0020B084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FFBBEBD1BC521CF0020B084 /* ledphoto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FFBBEBF1BC521CF0020B084 /* ledphoto */ = {
+			isa = PBXGroup;
+			children = (
+				3FFBBEC31BC521CF0020B084 /* AppDelegate.h */,
+				3FFBBEC41BC521CF0020B084 /* AppDelegate.m */,
+				3FFBBEC61BC521CF0020B084 /* ViewController.h */,
+				3FFBBEC71BC521CF0020B084 /* ViewController.m */,
+				3FFBBED71BC521E40020B084 /* images */,
+				3FFBBEC91BC521CF0020B084 /* Main.storyboard */,
+				3FFBBECC1BC521CF0020B084 /* Assets.xcassets */,
+				3FA6B38E1BC61B2800E97607 /* CustomSwitch */,
+				3FFBBECE1BC521CF0020B084 /* LaunchScreen.storyboard */,
+				3FFBBED11BC521CF0020B084 /* Info.plist */,
+				3FFBBEC01BC521CF0020B084 /* Supporting Files */,
+			);
+			path = ledphoto;
+			sourceTree = "<group>";
+		};
+		3FFBBEC01BC521CF0020B084 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F80C2FE1BC57425001A6001 /* switch.mp3 */,
+				3FFBBEC11BC521CF0020B084 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FFBBED71BC521E40020B084 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3FFBBEDA1BC522170020B084 /* OffBlack.png */,
+				3FFBBEDB1BC522170020B084 /* OffWhite.png */,
+				3FFBBEDC1BC522170020B084 /* OnBlack.png */,
+				3FFBBEDD1BC522170020B084 /* OnWhite.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FFBBEBC1BC521CF0020B084 /* ledphoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFBBED41BC521CF0020B084 /* Build configuration list for PBXNativeTarget "ledphoto" */;
+			buildPhases = (
+				3FFBBEB91BC521CF0020B084 /* Sources */,
+				3FFBBEBA1BC521CF0020B084 /* Frameworks */,
+				3FFBBEBB1BC521CF0020B084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ledphoto;
+			productName = ledphoto;
+			productReference = 3FFBBEBD1BC521CF0020B084 /* ledphoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FFBBEB51BC521CF0020B084 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3FFBBEBC1BC521CF0020B084 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 3FFBBEB81BC521CF0020B084 /* Build configuration list for PBXProject "ledphoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FFBBEB41BC521CF0020B084;
+			productRefGroup = 3FFBBEBE1BC521CF0020B084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FFBBEBC1BC521CF0020B084 /* ledphoto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FFBBEBB1BC521CF0020B084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFBBED01BC521CF0020B084 /* LaunchScreen.storyboard in Resources */,
+				3FFBBECD1BC521CF0020B084 /* Assets.xcassets in Resources */,
+				3F80C2FF1BC57425001A6001 /* switch.mp3 in Resources */,
+				3FFBBEE01BC522170020B084 /* OnBlack.png in Resources */,
+				3FFBBEE11BC522170020B084 /* OnWhite.png in Resources */,
+				3FFBBEDF1BC522170020B084 /* OffWhite.png in Resources */,
+				3FFBBEDE1BC522170020B084 /* OffBlack.png in Resources */,
+				3FFBBECB1BC521CF0020B084 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FFBBEB91BC521CF0020B084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFBBEC81BC521CF0020B084 /* ViewController.m in Sources */,
+				3FFBBEC51BC521CF0020B084 /* AppDelegate.m in Sources */,
+				3FA6B3911BC61BB900E97607 /* CustomSwitch.m in Sources */,
+				3FFBBEC21BC521CF0020B084 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FFBBEC91BC521CF0020B084 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FFBBECA1BC521CF0020B084 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FFBBECE1BC521CF0020B084 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FFBBECF1BC521CF0020B084 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FFBBED21BC521CF0020B084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FFBBED31BC521CF0020B084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FFBBED51BC521CF0020B084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ledphoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tuan.ledphoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FFBBED61BC521CF0020B084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ledphoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tuan.ledphoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FFBBEB81BC521CF0020B084 /* Build configuration list for PBXProject "ledphoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFBBED21BC521CF0020B084 /* Debug */,
+				3FFBBED31BC521CF0020B084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFBBED41BC521CF0020B084 /* Build configuration list for PBXNativeTarget "ledphoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFBBED51BC521CF0020B084 /* Debug */,
+				3FFBBED61BC521CF0020B084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FFBBEB51BC521CF0020B084 /* Project object */;
+}
